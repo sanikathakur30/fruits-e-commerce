@@ -23,7 +23,7 @@ Technologies Used
   -CSS
   -JavaScript
 
-Author
+-Author
 Sanika Thakur
 
 Contact
