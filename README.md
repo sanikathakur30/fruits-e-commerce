@@ -19,11 +19,14 @@ Project Structure
 Preview
 
 Technologies Used
+
   -HTML
+
   -CSS
+
   -JavaScript
 
--Author
+Author
 Sanika Thakur
 
 Contact
