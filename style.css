@@ -1,3 +1,4 @@
+/* Common styles for all screen sizes */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,9 +10,8 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
+    z-index: 1000;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     background-color: #4caf50;
     color: #fff;
@@ -40,19 +40,20 @@ a {
     color: #fff;
 }
 
-
- #product-list {
+#product-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
 }
+
 #home {
-    background: url('https://img.freepik.com/free-photo/cornucopia-composition-with-delicious-foods_23-2149103286.jpg?w=996&t=st=1703403423~exp=1703404023~hmac=66d63aeba6a0364cacf775e9f1422f3d5c538ff25146ed59379b7c7cf49b927d') center/cover no-repeat;
+    background: url('images/bg.jpg') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 350px 0;
 }
+
 .home-content {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -62,11 +63,11 @@ a {
 #home h2 {
     margin: 0;
     font-size: 2em;
-  
 }
-#product-list h2{
+
+#product-list h2 {
     text-align: center;
-    width: 100%; 
+    width: 100%;
     font-size: 30px;
 }
 
@@ -113,6 +114,7 @@ a {
     border: 1px solid #ddd;
     z-index: 999;
 }
+
 footer {
     background-color: #4caf50;
     color: #fff;
@@ -131,4 +133,40 @@ footer {
 
 .copyright {
     margin-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+    
+    #product-list {
+        padding: 10px;
+    }
+    
+    .product-card {
+        width: 100%;
+    }
+
+    #home {
+        padding: 150px 0;
+    }
+
+    .home-content {
+        padding: 10px;
+    }
+
+    #home h2 {
+        font-size: 1.5em;
+    }
+
+    #product-list h2 {
+        font-size: 24px;
+    }
 }
