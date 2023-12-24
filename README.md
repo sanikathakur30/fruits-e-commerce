@@ -10,18 +10,18 @@ open index.html
 
 Project Structure
 
-index.html: Main HTML file containing the structure of the website.
+  -index.html: Main HTML file containing the structure of the website.
 
-style.css: CSS file for styling the website.
+  -style.css: CSS file for styling the website.
 
-script.js: JavaScript file for handling interactivity.
+  -script.js: JavaScript file for handling interactivity.
 
 Preview
 
 Technologies Used
-HTML
-CSS
-JavaScript
+  -HTML
+  -CSS
+  -JavaScript
 
 Author
 Sanika Thakur
