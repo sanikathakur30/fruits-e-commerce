@@ -9,15 +9,20 @@ To view this project, simply open the `index.html` file in your preferred web br
 open index.html
 
 Project Structure
+
 index.html: Main HTML file containing the structure of the website.
+
 style.css: CSS file for styling the website.
+
 script.js: JavaScript file for handling interactivity.
+
 Preview
 
 Technologies Used
 HTML
 CSS
 JavaScript
+
 Author
 Sanika Thakur
 
